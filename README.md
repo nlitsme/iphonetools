@@ -25,4 +25,12 @@ Will list the contents of the payload file in a `ls -l` style listing.
 Will extract the contents of the payload file into the `Contents` directory.
 
 
+lzssdec
+=======
+
+A lzss decompressor, Usage:
+
+    cat kernel.lzss | lzssdec > kernel.img
+
+
 (c) 2016 Willem Hengeveld <itsme@xs4all.nl>
